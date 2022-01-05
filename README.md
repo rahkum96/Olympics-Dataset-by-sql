@@ -29,8 +29,7 @@ quit
 4. configure with clinet server 
 mysql --local-infile=1 -u root -p
 
-5. 
-Show Databases;
+5. Show Databases;
 USE olympic;
 
 6. Load the file 
