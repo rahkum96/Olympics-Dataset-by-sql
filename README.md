@@ -13,7 +13,7 @@ https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-result
 
 ## Loading dataset to SQL Database:
 - There are two method we can upload the data 1) from table wizard 2) from cmd prompt 
-- Here I have used cmd prompt to upload the data, because the data set was huge it would take more than hour if we would import data from "import table wizard"
+- Here I have used cmd prompt to upload the data, because the data set was huge it would take more than an hour if we would have imported data from "import table wizard"
 
 ## Step to follow to import data from cmd prompt:
 **1. change directory**
