@@ -17,23 +17,23 @@ https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-result
 
 ## Step to follow to import data from cmd prompt:
 1. change directory
-cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+- - cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 
 2. mysql -u root -p
-enter password- *******
+- - enter password- *******
 
 3. configure with databse and quit the server 
-  SET GLOBAL local_infile=1;
-quit
+  - - SET GLOBAL local_infile=1;
+- - quit
 
 4. configure with clinet server 
-mysql --local-infile=1 -u root -p
+- - mysql --local-infile=1 -u root -p
 
 5. Show Databases;
-USE olympic;
+- - USE olympic;
 
 6. Load the file 
-LOAD DATA LOCAL INFILE 'C:\\Users\\Rohit Kumar (Prince)\\OneDrive\\Desktop\\Ivy_Data_science\\SQL\\project\\Research_project\\olympic_event.csv'
+- LOAD DATA LOCAL INFILE 'C:\\Users\\Rohit Kumar (Prince)\\OneDrive\\Desktop\\Ivy_Data_science\\SQL\\project\\Research_project\\olympic_event.csv'
 INTO TABLE olympic_event
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;
