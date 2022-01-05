@@ -1,5 +1,5 @@
 
-CREATE TABLE OLYMPICS_event
+CREATE TABLE OLYMPICS
 (
     id          INT,
     name        VARCHAR,
