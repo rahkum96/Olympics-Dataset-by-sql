@@ -16,23 +16,23 @@ https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-result
 - Here I have used cmd prompt to upload the data, because the data set was huge it would take more than hour if we would import data from "import table wizard"
 
 ## Step to follow to import data from cmd prompt:
-1. change directory
-- - cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+**1. change directory**
+ - cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 
-2. mysql -u root -p
-- - enter password- *******
+**2. mysql -u root -p**
+ - enter password- *******
 
-3. configure with databse and quit the server 
-  - - SET GLOBAL local_infile=1;
-- - quit
+**3. configure with databse and quit the server** 
+   - SET GLOBAL local_infile=1;
+ - quit
 
-4. configure with clinet server 
-- - mysql --local-infile=1 -u root -p
+**4. configure with clinet server** 
+ - mysql --local-infile=1 -u root -p
 
-5. Show Databases;
-- - USE olympic;
+**5. Show Databases;**
+ - USE olympic;
 
-6. Load the file 
+**6. Load the file**
 - LOAD DATA LOCAL INFILE 'C:\\Users\\Rohit Kumar (Prince)\\OneDrive\\Desktop\\Ivy_Data_science\\SQL\\project\\Research_project\\olympic_event.csv'
 INTO TABLE olympic_event
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
