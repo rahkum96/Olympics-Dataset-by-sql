@@ -1,5 +1,5 @@
 # Olympics-Dataset-by-sql
-120 years of Olympic history: athletes and results basic bio data on athletes and medal results from Athens 1896 to Rio 2016
+120 years of Olympic history: athletes and results basic bio data on athletes and medal results from Athens 1896 to Rio 2016.
 
 ## Data
 You can download the dataset from here. Or, you can download it by clicking on the below download button “Download Olympics Dataset”. 
