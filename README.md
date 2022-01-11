@@ -22,7 +22,7 @@ https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-result
 **2. mysql -u root -p**
  - enter password- *******
 
-**3. configure with databse and quit the server** 
+**3. configure with databse and quit the server**
    - SET GLOBAL local_infile=1;
  - quit
 
